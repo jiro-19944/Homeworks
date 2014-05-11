@@ -1,9 +1,9 @@
-public class Parz_tiv {
-    private int i=2;
-    private int parza;
+// Author: Ani G.
+// Ays file-y veradardznum e 0 arjeq, ete tivy parz e, 1 hakarak depqum
 
+public class Parz_tiv {
     public int parz(int tiv){
-	parza=1;
+	int parza=1;
        for (int i=2;  i <= tiv / 2; i++){
 
             if(tiv % i == 0){
@@ -11,9 +11,6 @@ public class Parz_tiv {
                 break;
             }
         }
-        
-
-
         return parza;
     }
 }

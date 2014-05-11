@@ -1,3 +1,6 @@
+// Author: Ani G.
+// Ays file-um bervac e Bazmapatik class-i nkaragrutyuny, ayn veradardznum e 2 tveri amenapoqr yndhanur bazmapatiky
+
 public class Bazmapatik {
     private int bazm;
     private int max;

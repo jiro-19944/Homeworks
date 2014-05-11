@@ -1,5 +1,5 @@
 // Author: Ani G.
-// Ays file-y veradardznum e 0 arjeq, ete tivy parz e, 1 hakarak depqum
+// Ays file-um nkaragrvac funkcian veradardznum e 0 arjeq, ete tivy parz e, 1 hakarak depqum
 
 public class Parz_tiv {
     public int parz(int tiv){

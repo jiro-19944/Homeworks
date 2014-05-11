@@ -10,7 +10,7 @@ public class Main{
         try{
             tiv=Integer.parseInt(args[0]);
         }catch(Exception e){
-            tiv=6;
+            tiv=10001;
         }
         Parz_tiv parz_tiv= new Parz_tiv();
            

@@ -7,7 +7,7 @@
 Օգտագործման եղանակը`
 
 Ծրագիրն աշխատեցնելու համար անհրաժեշտ է. 
- 0. Տեղադրել(installing) java 
+ 0. Տեղադրել(install) java 
 	sudo apt-get install openjdk-7-jdk
 	sudo apt-get install openjdk-7-jrn
  1. տերմինալում աշխատեցնել հետևյալ հրամանը

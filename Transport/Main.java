@@ -12,17 +12,15 @@ public class Main{
         }
 
         Metro metro= new Metro();
-        metro.tr();
-        if (x >= metro.get_tomsi_gin() ) { 
-            System.out.println("Metro.");
+        if (x >= metro.get_tomsi_gin() && metro.azat_texeri_qanak()>0) { 
+            System.out.println("\nMetro.");
             System.out.println(" Tomsi arjeqn e` " + metro.get_tomsi_gin() +"dram");
             System.out.println(" Azat texeri qanakn e` " + metro.azat_texeri_qanak());
         }
 
-        Ertuxayin ertuxayin = new Ertuxayin();
-        ertuxayin.tr();
-        if (x  >= ertuxayin.get_tomsi_gin() ) {
-            System.out.println("Ertuxayin.");
+        Ertuxayin ertuxayin = new Ertuxayin();        
+        if (x  >= ertuxayin.get_tomsi_gin() && ertuxayin.azat_texeri_qanak()>0 ) {
+            System.out.println("\nErtuxayin.");
             System.out.println(" Tomsi arjeqn e` " + ertuxayin.get_tomsi_gin() +"dram");
             System.out.println(" Azat texeri qanakn e` " + ertuxayin.azat_texeri_qanak());
         }
